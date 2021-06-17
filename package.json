@@ -1,22 +1,20 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next"
   },
   "dependencies": {
-    "next": "11.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@hapi/boom": "^9.1.2",
+    "axios": "^0.21.1",
+    "next": "^10.2.3",
+    "next-connect": "^0.10.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.17.1"
   },
   "devDependencies": {
-    "@types/react": "17.0.11",
-    "eslint": "7.28.0",
-    "eslint-config-next": "11.0.0",
-    "typescript": "4.3.3"
+    "@types/node": "^15.12.2",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "typescript": "^4.3.2"
   }
 }
